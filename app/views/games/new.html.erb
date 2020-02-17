@@ -1,2 +1,52 @@
-<h1>Games#new</h1>
-<p>Find me in app/views/games/new.html.erb</p>
+<h1>New game!</h1>
+<!-- <p>Find me in app/views/games/new.html.erb</p> -->
+<div class="row">
+
+  <div class="column">
+
+    <div class="card"><%= @letters[0] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[1] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[2] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[3] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[4] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[5] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[6] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[7] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[8] %></div>
+  </div>
+  <div class="column">
+    <div class="card"><%= @letters[9] %></div>
+
+  </div>
+
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<form action="/action_page.php">
+
+  <div class="form-group">
+    <label for="letters">What's the longest word you can find?</label>
+    <input type="text" class="form-control" id="text"><button type="submit" class="btn btn-default">Play</button>
+  </div>
+
+</form>
